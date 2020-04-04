@@ -1,22 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styles from './index.css';
 
 import { DndProvider, useDrag, useDrop } from '@/packages/react-dnd/src';
-
-console.log(DndProvider);
+import htmlBackend from '@/packages/html5-backend/src';
 
 export default function() {
   return (
-    <div className={styles.normal}>
-      <div className={styles.welcome}/>
-      <ul className={styles.list}>
-        <li>To get started, edit <code>src/pages/index.js</code> and save to reload.</li>
-        <li>
-          <a href="https://umijs.org/guide/getting-started.html">
-            Getting Started
-          </a>
-        </li>
-      </ul>
-    </div>
+    <Fragment>
+      <DndProvider backend={htmlBackend}>
+        hello
+      </DndProvider>
+    </Fragment>
   );
 }

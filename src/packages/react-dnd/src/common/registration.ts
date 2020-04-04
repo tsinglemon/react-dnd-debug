@@ -6,7 +6,7 @@ import {
 	TargetType,
 	SourceType,
 	DragSource,
-} from '../../../dnd-core/src'
+} from '@/packages/dnd-core/src'
 
 export function registerTarget(
 	type: TargetType,

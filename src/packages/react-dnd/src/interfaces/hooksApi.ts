@@ -1,4 +1,4 @@
-import { TargetType, SourceType } from '../../../dnd-core/src'
+import { TargetType, SourceType } from '@/packages/dnd-core/src'
 import { DropTargetMonitor, DragSourceMonitor } from './monitors'
 import { DragSourceOptions, DragPreviewOptions } from './options'
 

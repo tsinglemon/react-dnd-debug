@@ -1,4 +1,4 @@
-import { Identifier, Unsubscribe } from '../../../dnd-core/src'
+import { Identifier, Unsubscribe } from '@/packages/dnd-core/src'
 
 export interface XYCoord {
 	x: number

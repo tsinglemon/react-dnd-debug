@@ -5,7 +5,7 @@ import {
 	DragDropMonitor,
 	HandlerRegistry,
 	Identifier,
-} from '../../dnd-core/src'
+} from '@/packages/dnd-core/src'
 import EnterLeaveCounter from './EnterLeaveCounter'
 import { isFirefox } from './BrowserDetector'
 import {

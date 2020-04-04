@@ -5,7 +5,7 @@ import {
 	DragObjectWithType,
 	DragSourceMonitor,
 } from '../../interfaces'
-import { DragDropMonitor, DragSource } from '../../../../dnd-core/src'
+import { DragDropMonitor, DragSource } from '@/packages/dnd-core/src'
 import { registerSource } from '../../common/registration'
 import { useDragDropManager } from './useDragDropManager'
 import { DragSourceMonitorImpl } from '../../common/DragSourceMonitorImpl'

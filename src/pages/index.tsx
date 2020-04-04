@@ -8,7 +8,7 @@ export default function() {
   return (
     <Fragment>
       <DndProvider backend={htmlBackend}>
-        hello
+        hello ~
       </DndProvider>
     </Fragment>
   );

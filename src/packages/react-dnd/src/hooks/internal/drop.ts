@@ -4,7 +4,7 @@ import {
 	DropTargetHookSpec,
 } from '../../interfaces'
 import { useMemo, MutableRefObject } from 'react'
-import { DropTarget } from '../../../../dnd-core/src'
+import { DropTarget } from '@/packages/dnd-core/src'
 import { registerTarget } from '../../common/registration'
 import { useDragDropManager } from './useDragDropManager'
 import { TargetConnector } from '../../common/TargetConnector'

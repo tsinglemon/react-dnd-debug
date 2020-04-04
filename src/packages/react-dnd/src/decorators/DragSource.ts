@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { invariant } from '@react-dnd/invariant'
-import { SourceType, DragDropManager } from '../../../dnd-core/src'
+import { SourceType, DragDropManager } from '@/packages/dnd-core/src'
 import { DndOptions } from '../interfaces'
 import { isPlainObject } from '../utils/js_utils'
 import {

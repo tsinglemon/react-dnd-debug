@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { memo } from 'react'
-import { BackendFactory, DragDropManager } from '../../../dnd-core/src'
+import { BackendFactory, DragDropManager } from '@/packages/dnd-core/src'
 import { DndContext, createDndContext } from './DndContext'
 
 export type DndProviderProps<BackendContext, BackendOptions> =

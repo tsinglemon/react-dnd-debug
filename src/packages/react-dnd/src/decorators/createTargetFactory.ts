@@ -1,7 +1,7 @@
 declare const process: any
 
 import * as React from 'react'
-import { DropTarget } from '../../../dnd-core/src'
+import { DropTarget } from '@/packages/dnd-core/src'
 import { invariant } from '@react-dnd/invariant'
 import { DropTargetMonitor } from '../interfaces'
 import { isPlainObject } from '../utils/js_utils'

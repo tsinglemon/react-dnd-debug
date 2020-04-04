@@ -1,7 +1,7 @@
 //
 // HACK: copied from dnd-core. duplicating here to fix a CI issue
 //
-import { Identifier, SourceType, TargetType } from '../../dnd-core/src'
+import { Identifier, SourceType, TargetType } from '@/packages/dnd-core/src'
 
 export default function matchesType(
 	targetType: TargetType | null,

@@ -1,4 +1,4 @@
-import { DragDropManager, BackendFactory } from '../../dnd-core/src'
+import { DragDropManager, BackendFactory } from '@/packages/dnd-core/src'
 import { TouchBackendOptions } from './interfaces'
 import TouchBackend from './TouchBackend'
 

@@ -3,7 +3,7 @@ import {
 	DragDropManager,
 	BackendFactory,
 	createDragDropManager,
-} from '../../../dnd-core/src'
+} from '@/packages/dnd-core/src'
 
 /**
  * The React context type

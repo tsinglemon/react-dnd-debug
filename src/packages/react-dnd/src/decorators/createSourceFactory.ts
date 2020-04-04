@@ -1,7 +1,7 @@
 declare const process: any
 import * as React from 'react'
 import { invariant } from '@react-dnd/invariant'
-import { DragSource, DragDropMonitor } from '../../../dnd-core/src'
+import { DragSource, DragDropMonitor } from '@/packages/dnd-core/src'
 import { DragSourceMonitor } from '../interfaces'
 import { isPlainObject } from '../utils/js_utils'
 import { DragSourceSpec } from './interfaces'

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Identifier } from '../../../dnd-core/src'
+import { Identifier } from '@/packages/dnd-core/src'
 import {
 	DropTargetMonitor,
 	DragSourceMonitor,

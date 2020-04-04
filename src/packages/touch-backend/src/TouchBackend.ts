@@ -7,7 +7,7 @@ import {
 	XYCoord,
 	DragDropManager,
 	Unsubscribe,
-} from '../../dnd-core/src'
+} from '@/packages/dnd-core/src'
 import { EventName, ListenerType, TouchBackendOptions } from './interfaces'
 import {
 	eventShouldStartDrag,

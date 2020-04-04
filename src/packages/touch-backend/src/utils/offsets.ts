@@ -1,4 +1,4 @@
-import { XYCoord } from '../../../dnd-core/src'
+import { XYCoord } from '@/packages/dnd-core/src'
 import { isTouchEvent } from './predicates'
 
 const ELEMENT_NODE = 1

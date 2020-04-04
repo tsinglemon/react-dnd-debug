@@ -1,5 +1,5 @@
 import { NativeItemConfig } from './nativeTypesConfig'
-import { DragDropMonitor } from '../../../dnd-core/src'
+import { DragDropMonitor } from '@/packages/dnd-core/src'
 
 export class NativeDragSource {
 	public item: any

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import wrapConnectorHooks from './wrapConnectorHooks'
-import { Backend, Unsubscribe, Identifier } from '../../../dnd-core/src'
+import { Backend, Unsubscribe, Identifier } from '@/packages/dnd-core/src'
 import { isRef } from '../utils/isRef'
 import { DragSourceOptions, DragPreviewOptions } from '../interfaces'
 import { shallowEqual } from '@react-dnd/shallowequal'

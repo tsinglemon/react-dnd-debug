@@ -4,7 +4,7 @@ import {
 	Unsubscribe,
 	Listener,
 	Identifier,
-} from '../../../dnd-core/src'
+} from '@/packages/dnd-core/src'
 import { invariant } from '@react-dnd/invariant'
 import { DragSourceMonitor } from '../interfaces'
 

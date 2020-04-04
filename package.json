@@ -8,6 +8,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
+    "@react-dnd/asap": "^4.0.0",
     "@react-dnd/invariant": "^2.0.0",
     "@react-dnd/shallowequal": "^2.0.0",
     "react": "^16.8.6",
